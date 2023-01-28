@@ -1,0 +1,28 @@
+#titulo{
+    align-items: center !important;
+}
+
+body{
+    background-color: rgb(177, 177, 177) !important;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.busc{
+    background-color: rgb(68, 68, 68) !important;
+}
+
+.sig1{
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: aqua;
+}

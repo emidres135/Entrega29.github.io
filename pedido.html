@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lato:wght@300&family=Noto+Serif+JP:wght@300&family=Sofia&display=swap" rel="stylesheet">
+  <title>Actividad_2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="ac2.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light busc">
+    <div class="container-fluid">
+      <a class="navbar-brand text-info" href="/index.html">Página Principal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link disable text-dark" aria-current="page" href="datosdecliente.html">Datos Del Cliente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disable text-dark" aria-current="page" href="">Información Adicional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-info" aria-current="page" href="">Pedido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disable text-dark" aria-current="page" href="">Datos de Pago</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <div class="container">
+          <br>
+          <h2>Pedido</h2>
+      <form class="was-validated" action="datosdepago.html">
+          <div class="container mt-3">  
+            <table class="table  table-bordered table-hover">
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" id="micheck" name="pedido1" class="form-check-input"></td>
+                  <td><img src="ber.png" width="90" height="90" alt="Berserk"></td>
+                  <td><a href="https://www.amazon.es/Berserk-deluxe-Vol-Kentaro-Miura/dp/8828722762/ref=asc_df_8828722762/?tag=googshopes-21&linkCode=df0&hvadid=593253122144&hvpos=&hvnetw=g&hvrand=13415480180438086850&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061043&hvtargid=pla-1770913890708&psc=1" target="_blank">Amazon</a></td>
+                  <td>50,00€</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" id="micheck" name="pedido2" class="form-check-input"></td>
+                  <td><img src="dbu.png" width="90" height="90" alt="Dragon Ball Ultimate"></td>
+                  <td> <a href="https://www.amazon.es/Dragon-Ball-Ultimate-Manga-Shonen/dp/8413418496/ref=asc_df_8413418496/?tag=googshopes-21&linkCode=df0&hvadid=469295739787&hvpos=&hvnetw=g&hvrand=15576821387941735004&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061043&hvtargid=pla-1169020405614&psc=1" target="_blank">Amazon</a></td>
+                  <td>11,35€</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" id="micheck" name="pedido3" class="form-check-input"></td>
+                  <td><img src="sm.png" width="90" height="100" alt="Sailor Moon"></td>
+                  <td><a href="https://www.amazon.es/SAILOR-MOON-1-CÓMIC-MANGA/dp/8467908688/ref=asc_df_8467908688/?tag=googshopes-21&linkCode=df0&hvadid=195264634283&hvpos=&hvnetw=g&hvrand=2020579784292000476&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061043&hvtargid=pla-138241717995&psc=1" target="_blank">Amazon</a></td>
+                  <td>7,60€</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <button type="button" class="btn btn-dark text-info" ><a href="informacion.html">Anterior</a></button>
+        <input type="submit" value="Siguiente" class="btn btn-dark text-info">
+      </form>
+      </div>
+</body>
+</html>
